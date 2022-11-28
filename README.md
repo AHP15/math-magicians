@@ -13,7 +13,6 @@
 # 📗 Table of Contents
 
 - [📖 About the Project](#about-project)
-  - [🎦 Video Description](#video) 
   - [🛠 Built With](#built-with)
     - [Tech Stack](#tech-stack)
     - [Key Features](#key-features)
@@ -32,20 +31,6 @@
 - [🙏 Acknowledgements](#acknowledgements)
 - [📝 License](#license)
 
-<p align="center">
-  <img style="width: 80%" src="./src/Assets/big1.png" />
-</p>
-
-<div align="center"> 
-
-  <span align="left" style="width: 250px">
-     <img style="width: 200px" src="./src/Assets/small 1.png" />
-  </span>
-
-  <span align="right">
-     <img style="width: 200px" src="./src/Assets/small 2.png" />
-  </span>
-</div>
 <!-- PROJECT DESCRIPTION -->
 
 # 📖 [Math magicians] <a name="about-project"></a>
