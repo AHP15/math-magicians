@@ -16,21 +16,32 @@ export default class Calculator extends React.Component {
       total: null,
       next: null,
       operation: null,
+      text: null,
     };
     this.handleClick = this.handleClick.bind(this);
   }
 
   handleClick(buttonName) {
-    const obj = calculate(this.state, buttonName);
+    let obj = calculate(this.state, buttonName);
+
+    if (obj.total && obj.next && obj.operation) {
+      obj = {
+        ...obj,
+        text: `${obj.total} ${obj.operation} ${obj.next}`,
+      };
+    } else {
+      obj = { ...obj, text: null };
+    }
+
     this.setState(obj);
   }
 
   render() {
     const { buttons } = this.props;
-    const { total, next } = this.state;
+    const { total, next, text } = this.state;
     return (
       <div className="calculator">
-        <Result result={total ?? next ?? '0'} />
+        <Result result={text ?? total ?? next ?? '0'} />
         {
           buttons.map(({ text, changeBg }) => (
             <CalculatorButton
