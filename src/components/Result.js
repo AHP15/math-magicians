@@ -19,5 +19,5 @@ export default class Result extends React.Component {
 }
 
 Result.propTypes = {
-  result: PropTypes.number.isRequired,
+  result: PropTypes.string.isRequired,
 };
