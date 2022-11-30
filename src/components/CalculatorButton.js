@@ -9,12 +9,13 @@ export default class CalculatorButton extends React.Component {
   }
 
   render() {
-    const { text, changeBg } = this.props;
+    const { text, changeBg, handleClick } = this.props;
     return (
       <button
         className={text === '0' ? 'zero' : ''}
         type="button"
         style={{ backgroundColor: changeBg ? 'orange' : 'auto' }}
+        onClick={() => handleClick(text)}
       >
         {text}
       </button>
@@ -25,4 +26,5 @@ export default class CalculatorButton extends React.Component {
 CalculatorButton.propTypes = {
   text: PropTypes.string.isRequired,
   changeBg: PropTypes.bool.isRequired,
+  handleClick: PropTypes.func.isRequired,
 };
