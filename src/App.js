@@ -1,12 +1,30 @@
 import React from 'react';
+import {
+  createBrowserRouter,
+  RouterProvider,
+} from 'react-router-dom';
 
-import Calculator from './components/Calculator';
-import buttonsInfo from './buttons';
+import CalculatorPage from './components/CalculatorPage';
+import Home from './components/Home';
+import Quote from './components/Quote';
+
+const router = createBrowserRouter([
+  {
+    path: '/',
+    element: <Home />,
+  },
+  {
+    path: '/calculator',
+    element: <CalculatorPage />,
+  },
+  {
+    path: '/quote',
+    element: <Quote />,
+  },
+]);
 
 const App = () => (
-  <div>
-    <Calculator buttons={buttonsInfo} />
-  </div>
+  <RouterProvider router={router} />
 );
 
 export default App;
