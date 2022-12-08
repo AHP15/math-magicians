@@ -1,0 +1,83 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders Home correctly 1`] = `
+<div
+  style={
+    Object {
+      "padding": "100px 50px",
+    }
+  }
+>
+  <nav
+    className="navbar"
+  >
+    <a
+      className="link"
+      href="/"
+      onClick={[Function]}
+    >
+      <h1>
+        Math Magicians
+      </h1>
+    </a>
+    <ul
+      className="links"
+    >
+      <li>
+        <a
+          className="link"
+          href="/"
+          onClick={[Function]}
+        >
+          Home
+        </a>
+      </li>
+      <li>
+        <a
+          className="link"
+          href="/calculator"
+          onClick={[Function]}
+        >
+          Calculator
+        </a>
+      </li>
+      <li>
+        <a
+          className="link"
+          href="/quote"
+          onClick={[Function]}
+        >
+          Quote
+        </a>
+      </li>
+    </ul>
+  </nav>
+  <h2
+    style={
+      Object {
+        "margin": "50px",
+      }
+    }
+  >
+    Welcome to our page!
+  </h2>
+  <p
+    style={
+      Object {
+        "margin": "20px",
+      }
+    }
+  >
+    Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa explicabo tempora non? Tempore deleniti expedita nemo adipisci voluptatum dolorem voluptatem similique culpa. Nobis quidem ipsam enim fuga quo cumque iste quas nam iure soluta sapiente nostrum tempore, beatae quis eos saepe deserunt sit ut. Dolorem quaerat eligendi, distinctio, dicta maiores nesciunt natus eveniet itaque aliquam molestiae tenetur dolor molestias
+  </p>
+  <p
+    style={
+      Object {
+        "margin": "20px",
+      }
+    }
+  >
+    Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa explicabo tempora non? Tempore deleniti expedita nemo adipisci voluptatum dolorem voluptatem similique culpa. Nobis quidem ipsam enim fuga quo cumque iste quas nam iure soluta sapiente nostrum tempore, beatae quis eos saepe deserunt sit ut. Dolorem quaerat eligendi, distinctio, dicta maiores nesciunt natus eveniet itaque aliquam molestiae tenetur dolor molestias
+  </p>
+</div>
+`;

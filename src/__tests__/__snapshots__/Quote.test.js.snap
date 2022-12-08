@@ -1,0 +1,69 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders Quote correctly 1`] = `
+<div
+  style={
+    Object {
+      "display": "grid",
+      "height": "100vh",
+      "placeItems": "center",
+    }
+  }
+>
+  <nav
+    className="navbar"
+  >
+    <a
+      className="link"
+      href="/"
+      onClick={[Function]}
+    >
+      <h1>
+        Math Magicians
+      </h1>
+    </a>
+    <ul
+      className="links"
+    >
+      <li>
+        <a
+          className="link"
+          href="/"
+          onClick={[Function]}
+        >
+          Home
+        </a>
+      </li>
+      <li>
+        <a
+          className="link"
+          href="/calculator"
+          onClick={[Function]}
+        >
+          Calculator
+        </a>
+      </li>
+      <li>
+        <a
+          className="link"
+          href="/quote"
+          onClick={[Function]}
+        >
+          Quote
+        </a>
+      </li>
+    </ul>
+  </nav>
+  <h1
+    style={
+      Object {
+        "maxWidth": "700px",
+        "textAlign": "center",
+        "width": "100%",
+      }
+    }
+  >
+    Mathematics is not about number, equations, computations, or algorithms: it is about understanding. -William Paul Thruston
+  </h1>
+</div>
+`;
