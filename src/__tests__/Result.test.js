@@ -4,7 +4,7 @@ import Result from '../components/Result';
 
 it('renders Result correctly', () => {
   const tree = renderer
-    .create(<BrowserRouter><Result /></BrowserRouter>)
+    .create(<BrowserRouter><Result result="5" /></BrowserRouter>)
     .toJSON();
   expect(tree).toMatchSnapshot();
 });

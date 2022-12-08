@@ -6,6 +6,7 @@ exports[`renders Calculator correctly 1`] = `
 >
   <div
     className="result"
+    title="result"
   >
     <p>
       0

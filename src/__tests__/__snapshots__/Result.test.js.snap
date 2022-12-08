@@ -3,7 +3,10 @@
 exports[`renders Result correctly 1`] = `
 <div
   className="result"
+  title="result"
 >
-  <p />
+  <p>
+    5
+  </p>
 </div>
 `;
