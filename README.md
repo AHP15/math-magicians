@@ -75,7 +75,7 @@ Read a random math-related quote.
 ## 🚀 Live Demo <a name="live-demo"></a>
 
 
-- Not for now
+- [Live demo](https://math-magicians-one.vercel.app/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
