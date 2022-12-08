@@ -1,0 +1,16 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders CalculatorButtun correctly 1`] = `
+<button
+  className=""
+  onClick={[Function]}
+  style={
+    Object {
+      "backgroundColor": "auto",
+    }
+  }
+  type="button"
+>
+  1
+</button>
+`;
